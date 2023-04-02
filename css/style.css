@@ -14,3 +14,52 @@ img{
   z-index: -1;
   opacity: 80%;
 }
+
+#clock{
+  font-size: 155px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 170px;
+  margin-bottom:15px;
+}
+
+#login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form input:not([type="submit"]){
+  border: none;
+  background: transparent;
+  font-size: 30px;
+  padding-bottom: 13px;
+  margin-bottom: 10px;
+  border-bottom: 0.7px solid white;
+}
+
+#login-form input::placeholder{
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+#login-form input[type="submit"]{
+  background-color: transparent;
+  border: none;
+}
+
+#login-form input[value="+"]{
+  font-size: 40px;
+}
+
+
+
+#greeting{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
