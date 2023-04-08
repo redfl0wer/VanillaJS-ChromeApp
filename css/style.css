@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lexend Peta', sans-serif;
+}
+
 .hidden{
   display: none;
 }
@@ -15,8 +19,21 @@ img{
   opacity: 80%;
 }
 
+#weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 12px;
+}
+
+#weather span{
+  color: white;
+  margin-bottom: 10px;
+}
+
 #clock{
   font-size: 155px;
+  font-weight: 100;
   color: white;
   display: flex;
   flex-direction: column;
@@ -25,41 +42,71 @@ img{
   margin-bottom:15px;
 }
 
-#login-form{
+input[type="text"] {
+  font-family: 'Lexend Peta', sans-serif;
+}
+
+.login-form{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#login-form input:not([type="submit"]){
+.login-form input:not([type="submit"]){
   border: none;
   background: transparent;
   font-size: 30px;
   padding-bottom: 13px;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
   border-bottom: 0.7px solid white;
+  opacity: 60%;
 }
 
-#login-form input::placeholder{
+.login-form input:not([type="submit"]):focus{
+  outline: none;
+}
+
+.login-form input::placeholder{
   color: white;
   text-align: center;
   font-size: 40px;
 }
 
-#login-form input[type="submit"]{
+.login-form__submit{
   background-color: transparent;
+  cursor: pointer;
   border: none;
 }
 
-#login-form input[value="+"]{
-  font-size: 40px;
+.login-form__submit i{
+  font-size: 30px;
 }
 
+.login-form input[type="submit"]:focus{
+  outline: none;
+}
 
+.login-form input[value="+"]{
+  font-size: 40px;
+}
 
 #greeting{
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: white;
+}
+
+#quote{
+  margin: 10px 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote span{
+  font-size: 17px;
+  margin-bottom: 25px;
   color: white;
 }
