@@ -14,28 +14,44 @@
     <span></span>
     <span></span>
   </div>
-  <h2 id="clock">00:00:00</h2>
-  
+  <div class="clock">
+    <h2 id="clock">00:00:00</h2>
+  </div>
+
   <form class="hidden login-form">
     <input required maxlength="15" type="text" placeholder="Your Name" />
     <button class="login-form__submit">
       <i class="fas fa-plus fa-lg"></i>
     </button>
   </form>
-  
+
   <h1 class="hidden" id="greeting"></h1>
+
+  <div class="todo-pop">
+    <a href="#todo-pop__inner" class="todo-pop__button">
+      Today's Focus
+    </a>
+  </div>
+
+  <div id="todo-pop__inner" class="hidden">
+
+  </div>
+
+  <!--
   <form id="todo-form">
     <input type="text" placeholder="Write a To Do and Press Enter" required />
   </form>
   <ul id="todo-list">
 
   </ul>
+-->
+
   <div id="quote">
     <span></span>
     <span></span>
   </div>
-  <script src="js/greetings.js"></script>
   <script src="js/clock.js"></script>
+  <script src="js/greetings.js"></script>
   <script src="js/quotes.js"></script>
   <script src="js/background.js"></script>
   <script src="js/todo.js"></script>
