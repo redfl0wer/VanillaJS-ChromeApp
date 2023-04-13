@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Momentum</title>
 </head>
 
@@ -28,26 +28,30 @@
   <h1 class="hidden" id="greeting"></h1>
 
   <div class="todo-pop">
-    <a href="#todo-pop__inner" class="todo-pop__button">
+    <a class="todo-pop__button">
       Today's Focus
     </a>
   </div>
 
-  <div id="todo-pop__inner" class="hidden">
-
+  <div id="quote">
+    <span></span>
+    <span></span>
   </div>
-
-  <div class="todo-container">
+  
+  <div class="todo-container hidden">
     <div class="todo-popup-wrap" id="todo-popup">
       <div class="todo-popup">
+        <div class="todo-close-button"><i class="fas fa-times fa-2x"></i></div>
         <div class="todo-popup__head">
-          <span class="head-title">Today's To-Do</span>
+          <span class="head-title">To - Do</span>
         </div>
+
         <div class="todo-popup__body">
+
           <div class="body-content">
 
             <div class="body-titlebox">
-              <h3>Just don't give up</h3>
+              <h3>Don't give up</h3>
             </div>
 
             <div class="body-contentbox">
@@ -60,24 +64,23 @@
             </div>
 
           </div>
+
         </div>
+
       </div>
     </div>
   </div>
 
-
-  <div id="quote">
-    <span></span>
-    <span></span>
-  </div>
+  <script src="js/background.js"></script>
   <script src="js/clock.js"></script>
   <script src="js/greetings.js"></script>
   <script src="js/quotes.js"></script>
-  <script src="js/background.js"></script>
   <script src="js/todo.js"></script>
   <script src="js/weather.js"></script>
+  <script src="js/todopopup.js"></script>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
   </style>
   <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>

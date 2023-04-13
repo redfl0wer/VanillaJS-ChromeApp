@@ -1,0 +1,11 @@
+#weather{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 12px;
+}
+
+#weather span{
+  color: white;
+  margin-bottom: 10px;
+}

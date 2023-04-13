@@ -1,0 +1,88 @@
+.todo-pop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5px;
+  position: absolute;
+  top: 76%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.todo-pop a{
+  border: 3px solid black;
+  padding: 13px;
+  color: white;
+  text-decoration-line: none;
+  font-size: 23px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+#todo-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-popup-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  backdrop-filter: blur(4px);
+}
+
+.todo-popup{
+  width: 100%;
+  max-width: 400px;
+  height: 55vh;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 10px 10px 7px rgba(0,0,0,.5);
+  position: relative;
+}
+
+.todo-popup__head{
+  width: 100%;
+  height: 50px;
+  top: 50;
+  margin-top: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-title{
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px black;
+  font-family: 'Satisfy', cursive;
+}
+
+.body-titlebox{
+  display: flex;
+  justify-content: center;
+}
+
+.body-titlebox h3{
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  font-family: 'Satisfy', cursive;
+}
+
+.todo-close-button{
+  position: absolute;
+  right: 0;
+  margin: 15px;
+}
+
+.todo-close-button i{
+  color: tomato;
+}

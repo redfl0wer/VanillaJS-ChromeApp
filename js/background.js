@@ -1,6 +1,6 @@
 //image source : unsplash.com
 
-const images = ["marek-piwnicki-9TKW2zO5uTo-unsplash.jpg", "wolfgang-hasselmann-Hmrx_cZWC3s-unsplash.jpg", "xavier-photography-wEL2u7wQhnY-unsplash.jpg"];
+const images = ["marek-piwnicki-9TKW2zO5uTo-unsplash.jpg", "wolfgang-hasselmann-Hmrx_cZWC3s-unsplash.jpg"];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)]
 

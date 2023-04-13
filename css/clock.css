@@ -1,0 +1,21 @@
+.clock{
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#clock{
+  display: flex;
+  font-size: 170px;
+  font-weight: 100;
+  color: white;
+  justify-content: center;
+  width: 50%;
+  margin: 0;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
