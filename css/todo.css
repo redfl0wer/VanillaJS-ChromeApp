@@ -7,6 +7,7 @@
   top: 76%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
 
 .todo-pop a{
@@ -24,6 +25,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#todo-form input{
+  width: 70%;
+  border: none; 
+  background: transparent;
+  border-bottom: 3px double white;
+  color: beige;
+}
+
+#todo-form input:focus{
+  outline: none;
+}
+
+#todo-form input::placeholder{
+  color: white;
 }
 
 .todo-popup-wrap{
@@ -83,6 +100,40 @@
   margin: 15px;
 }
 
+.todo-close-button{
+  cursor: pointer;
+}
+
 .todo-close-button i{
   color: tomato;
+}
+
+#todo-list{
+  margin-left: 20px;
+}
+
+#todo-list li{
+  list-style-type: decimal;
+  margin-bottom: 17px;
+}
+
+#todo-list li span{
+  font-family: 'Secular One', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  background-color: rgba(0,0,0,.4);
+  padding: 5px;
+  border-radius: 10px;
+}
+
+#todo-list li button{
+  background-color: transparent;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#todo-list li button:focus{
+  outline: none;
 }
